@@ -1,0 +1,200 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #F6F4F2;
+  margin: 0px;
+}
+
+header {
+  background-color: #fff;
+  color: #37434f;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 3rem;
+}
+
+#navigation {
+  background-color: #61778b;
+  color: #F6F4F2;
+  padding: 20px;
+  text-align: center;
+  height: 1.5rem;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  color: #C6AD8F;
+  font-size: 1rem;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  text-align: center;
+}
+
+footer {
+  color: #F6F4F2;
+  background-color: #61778b;
+  padding: 20px;
+  text-align: center;
+}
+
+button {
+  background-color: #C6AD8F;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-bottom: 2rem;
+}
+
+hr{
+    border-top: 3px double;
+    width : 50%;
+}
+
+#dolphins1{
+    display: inline-block;
+    width: 30rem;
+    margin-left: 20rem;
+    margin-bottom: 2rem;
+
+}
+
+#dolphins2{
+    display: inline-block;
+    width: 30rem;
+    margin-left: 20rem;
+    margin-bottom: 2rem;
+
+}
+
+#dolphin_container{
+    display: grid;
+    background-color: #F6F4F2;
+    position: relative;
+}
+
+
+#dolphin_description{
+    position: absolute;
+    right: 30rem;
+    top: 30%;
+}
+
+#illusion_container{
+    background-color: #FFFFFF;
+    width: 100%;
+    position: relative;
+}
+
+#illusion_description{
+    position: absolute;
+    left: 30rem;
+    top: 45%;
+}
+
+
+#stairs{
+    display: inline-block;
+    width: 30rem;
+    margin-left: 50rem;
+}
+
+#box{
+    display: inline-block;
+    width: 30rem;
+    margin-left: 50rem;
+}
+
+.pic{
+    width: 30rem;
+}
+
+
+#animals_container{
+    background-color: #F6F4F2;
+    position: relative;
+}
+
+#nature_container{
+    background-color: #fff;
+}
+
+#man_mountain{
+    display: block;
+    margin: 2rem;
+    margin-left: 20rem;
+}
+
+#cat{
+    display: block;
+    margin: 2rem;
+    margin-left: 20rem;
+}
+
+#animals_description{
+    position: absolute;
+    right: 30rem;
+    top: 30%;
+}
+
+#nature_container{
+    background-color: #fff;
+    position: relative;
+    height: 100rem;
+
+#night_sky{
+    position: absolute;
+    width: 30rem;
+    top: 50%;
+    right: 37rem;
+}
+
+#northern_lights{
+    position: absolute;
+    width: 30rem;
+    right: 5rem;
+    top: 15rem;
+
+}
+
+#yin_yang{
+    position: absolute;
+    width: 30rem;
+    right: 37rem;
+    top: 9rem;
+
+}
+#tree{
+    position: absolute;
+    width: 30rem;
+    right: 5rem;
+    top: 60rem;
+
+}
+#nature_description{
+    position: absolute;
+    left: 30rem;
+    top: 45%;
+}
+

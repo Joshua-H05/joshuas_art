@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head id="head">
+  <title>Kunst</title>
+</head>
+
+<body>
+  <header>
+    <h1> Experience the power of art </h1>
+    <hr/>
+      <script>
+    let counter = 0
+    function addCSS() {
+      counter++
+      if (counter % 2 !== 0) {
+        document.getElementById("head").innerHTML = '  <title>Example HTML Website</title> \n<link rel="stylesheet" href="styles.css" />'
+      } else {
+
+        document.getElementById("head").innerHTML = '  <title>Example HTML Website</title> '
+
+      }
+      const message = document.querySelector("h3")
+      if (message.innerHTML === "This is how all websites would look without art... Not great right? Let's make some improvements!") {
+        message.innerHTML = "That's better!"
+      }else{
+        message.innerHTML = "This is how all websites would look without art... Not great right? Let's make some improvements!"
+      }
+    }
+  </script>
+  </header>
+  <nav id="navigation">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+  <main>
+    <h2> Welcome to my website! </h2>
+    <h3>This is how all websites would look without art... Not great right? Let's make some improvements!</h3>
+    <button onclick="addCSS()" id="button">Toggle CSS</button>
+
+    <div id="dolphin_container">
+        <img id="dolphins1" src="photos/dolphin_sand.png">
+        <img id="dolphins2" src="photos/dolphin_sky.png">
+      <div id="dolphin_description">
+          <h2>Woman and dolphin</h2>
+          <p> Test description</p>
+      </div>
+    </div>
+
+
+    <div id="illusion_container">
+      <img id="stairs" src="photos/stairs.jpeg">
+      <img id="box" src="photos/box.jpeg">
+      <div id="illusion_description">
+        <h2>Illusions</h2>
+        <p> Test description</p>
+      </div>
+    </div>
+
+
+    <div id="animals_container">
+      <img class="pic" id="man_mountain" src="photos/man_mountain.jpeg">
+      <img class="pic" id="cat" src="photos/cat.jpeg">
+      <div id="animals_description">
+          <h2>Animals</h2>
+          <p> Test description</p>
+      </div>
+    </div>
+
+    <div id="nature_container">
+      <img class="pic" id="night_sky" src="photos/night_sky.jpeg">
+      <img class="pic" id="northern_lights" src="photos/northern_lights.jpeg">
+      <img class="pic" id="yin_yang" src="photos/yin_yang.jpeg">
+      <img class="pic" id="tree" src="photos/tree.png">
+      <div id="nature_description">
+          <h2>Nature</h2>
+          <p> Test description</p>
+      </div>
+    </div>
+    <video width="320" height="240" controls>
+      <source src="photos/vid.mp4" type="video/mp4">
+    </video>
+
+  </main>
+  <footer>
+    <p> Made by Joshua </p>
+  </footer>
+
+</body>
+
+</html>
