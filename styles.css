@@ -99,6 +99,7 @@ hr{
     position: absolute;
     right: 30rem;
     top: 30%;
+    width: 40rem;
 }
 
 #illusion_container{
@@ -111,6 +112,7 @@ hr{
     position: absolute;
     left: 30rem;
     top: 45%;
+    width: 40rem;
 }
 
 
@@ -156,6 +158,7 @@ hr{
     position: absolute;
     right: 30rem;
     top: 30%;
+    width: 40rem;
 }
 
 #nature_container{
@@ -196,10 +199,15 @@ hr{
     position: absolute;
     left: 30rem;
     top: 45%;
+    width: 40rem;
 }
 
 #vid_container{
     height: 850px;
+}
+
+p{
+    width: 10 rem;
 }
 
 
