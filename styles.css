@@ -97,9 +97,9 @@ hr{
 
 #dolphin_description{
     position: absolute;
-    right: 30rem;
+    right: 20rem;
     top: 30%;
-    width: 40rem;
+    width: 30rem;
 }
 
 #illusion_container{
@@ -110,9 +110,9 @@ hr{
 
 #illusion_description{
     position: absolute;
-    left: 30rem;
-    top: 45%;
-    width: 40rem;
+    left: 25rem;
+    top: 40%;
+    width: 30rem;
 }
 
 
@@ -156,58 +156,49 @@ hr{
 
 #animals_description{
     position: absolute;
-    right: 30rem;
+    right: 25rem;
     top: 30%;
-    width: 40rem;
+    width: 30rem;
 }
 
 #nature_container{
     background-color: #fff;
     position: relative;
-    height: 80rem;
+    height: 100rem;
 
 #night_sky{
     position: absolute;
-    width: 25rem;
-    top: 40%;
+    width: 30rem;
+    top: 50%;
     right: 37rem;
 }
 
 #northern_lights{
     position: absolute;
-    width: 25rem;
+    width: 30rem;
     right: 5rem;
-    top: 10%;
+    top: 15rem;
 
 }
 
 #yin_yang{
     position: absolute;
-    width: 25rem;
+    width: 30rem;
     right: 37rem;
-    top: 10%;
+    top: 9rem;
 
 }
 #tree{
     position: absolute;
-    width: 25rem;
+    width: 30rem;
     right: 5rem;
-    top: 45%;
+    top: 60rem;
 
 }
 #nature_description{
     position: absolute;
-    left: 30rem;
+    left: 8rem;
     top: 45%;
-    width: 40rem;
+    width: 30rem;
 }
-
-#vid_container{
-    height: 850px;
-}
-
-p{
-    width: 10 rem;
-}
-
 
